@@ -1,0 +1,75 @@
+.bg-theme{
+	background-color: $theme;
+}
+
+.text-theme{
+	color: $theme !important;
+}
+
+.text-red{
+	color:$red;
+}
+
+.bg-red{
+	background-color: $red;
+}
+
+.text-red2{
+	color:$red2;
+}
+
+.bg-red2{
+	background-color: $red2;
+}
+
+.page-bg{
+	background-image:linear-gradient($theme,rgba(0,0,0,0));
+	background-size: 750rpx 404rpx;
+	background-repeat: no-repeat;
+}
+
+.btn-theme{
+	height: 86rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	font-size: 34rpx;
+	letter-spacing:2px;
+	border-radius: 1000rpx;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: $theme;
+}
+
+.btn-red{
+	height: 86rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	font-size: 34rpx;
+	letter-spacing:2px;
+	border-radius: 1000rpx;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: $red;
+}
+
+.fixed-mask {
+	position: fixed;
+	z-index: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-image: linear-gradient(to bottom, rgb(90, 184, 127), rgba(90, 184, 127, 0.2));
+	height: 100vh;
+}
+
+.record-icon{
+	background-image: url("~static/images/recordtag.png");
+	width: 42rpx;
+	height: 46rpx;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}

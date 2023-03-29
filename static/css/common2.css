@@ -1,0 +1,239 @@
+view text button {
+	margin: 0;
+	padding: 0;
+}
+
+image {
+	height: auto;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.h100 {
+	height: 100%;
+}
+
+.fx {
+	display: flex;
+}
+
+.fx-row {
+	flex-direction: row;
+}
+
+.fx-col {
+	flex-direction: column;
+}
+
+.inline-fx {
+	display: inline-flex;
+}
+
+.j-center {
+	justify-content: center;
+}
+
+.j-between {
+	justify-content: space-between;
+}
+
+.a-center {
+	align-items: center;
+}
+
+.a-end {
+	align-items: flex-end;
+}
+
+.fx-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fx-end {
+	justify-content: flex-end;
+}
+
+.fx-warp{
+	flex-wrap: wrap;
+}
+
+.f1 {
+	flex: 1;
+}
+.f2 {
+	flex: 2;
+}
+
+.ml-auto {
+	margin-left: auto;
+}
+
+.mr-auto {
+	margin-right: auto;
+}
+
+.mt-auto {
+	margin-top: auto;
+}
+
+.mb-auto {
+	margin-bottom: auto;
+}
+
+.mg-auto {
+	margin: auto;
+}
+
+.bor-box {
+	box-sizing: border-box;
+}
+
+.circle {
+	border-radius: 50% !important;
+}
+
+.round {
+	border-radius: 1000rpx;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.clear {
+	display: flex;
+	flex-direction: column;
+}
+
+.pd20 {
+	padding: 20rpx;
+}
+
+.pdx-24 {
+	padding: 0 24rpx;
+}
+
+.pdy-20 {
+	padding: 20rpx 0;
+}
+
+.ml10 {
+	margin-left: 10rpx;
+}
+
+.bor-top {
+	border-top: 1rpx solid #eee;
+}
+
+.bor-bottom {
+	border-bottom: 1rpx solid #eee;
+}
+
+.disabled {
+	background-color: #bbbbbb !important;
+	color: #ffffff !important;
+}
+
+.relative {
+	position: relative;
+}
+
+.bg-white {
+	background-color: #FFFFFF !important;
+}
+
+.text-white {
+	color: #FFFFFF !important;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-black {
+	color: #000000;
+}
+
+.hover-class {
+	opacity: 0.9;
+}
+
+.fz_24 {
+	font-size: 24rpx;
+}
+
+.fz_26 {
+	font-size: 26rpx;
+}
+
+.fz_30 {
+	font-size: 30rpx;
+}
+
+.fz_32 {
+	font-size: 32rpx;
+}
+
+.fz_34 {
+	font-size: 34rpx;
+}
+
+.fz_36 {
+	font-size: 36rpx;
+}
+
+.fz_42 {
+	font-size: 42rpx;
+}
+
+.fz_44 {
+	font-size: 44rpx;
+}
+
+.fz_48 {
+	font-size: 48rpx;
+}
+
+.fz_54 {
+	font-size: 54rpx;
+}
+
+.fz_60 {
+	font-size: 60rpx;
+}
+
+.fz_80 {
+	font-size: 80rpx;
+}
+
+.padding_24 {
+	padding: 24rpx;
+}
+
+.padding_24_0 {
+	padding: 24rpx 0;
+}
+
+.padding_0_24 {
+	padding: 0 24rpx;
+}
+
+.margin-left_6 {
+	margin-left: 6rpx;
+}
+
+.margin-right_6 {
+	margin-right: 6rpx;
+}
+
+.margin-left_8 {
+	margin-left: 8rpx;
+}
+
+.margin-right_8 {
+	margin-right: 8rpx;
+}
