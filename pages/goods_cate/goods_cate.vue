@@ -180,6 +180,7 @@
 				path: '/pages/goods_cate/goods_cate?activceCate=' + this.productList[this.navActive] ? this.productList[this.navActive].store_category_id : 0
 			}
 		},
+		// #endif
 		onShareTimeline: function() {
 			return {
 				query: {
